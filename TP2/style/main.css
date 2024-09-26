@@ -1,0 +1,164 @@
+:root {
+    --primay-color: #E41010;
+    --primary-shadow-color: #9B0B0B;
+    --primary-dark-color: #480505;
+    --secondary-color: #FFCB14;
+    --secondary-shadow-color: #B49012;
+    --secondary-dark-color: #594708;
+    --accent-color: #14E3FF;
+    --accent-shadow-color: #0F93A6;
+    --accent-dark-color: #05434B;
+    --light-dark-color: rgb(50, 50, 50, 0.9);
+    --dark-color: #323232;
+    --light-gray-color: #CACACA;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.border-none {
+    border: none;
+}
+
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+.text-primary-color {
+    color: var(--primary-color);
+}
+.border-primary-color {
+    border-color: var(--primary-color);
+}
+
+.bg-primary-shadow-color {
+    background-color: var(--primary-shadow-color);
+}
+.text-primary-shadow-color {
+    color: var(--primary-shadow-color);
+}
+.border-primary-shadow-color {
+    border-color: var(--primary-shadow-color);
+}
+
+.bg-primary-dark-color {
+    background-color: var(--primary-dark-color);
+}
+.text-primary-dark-color {
+    color: var(--primary-dark-color);
+}
+.border-primary-dark-color {
+    border: var(--primary-dark-color) solid 2px;
+}
+
+.bg-secondary-color {
+    background-color: var(--secondary-color);
+}
+.text-secondary-color {
+    color: var(--secondary-color);
+}
+.border-secondary-color {
+    border: var(--secondary-color) solid 2px;
+}
+
+.bg-secondary-shadow-color {
+    background-color: var(--secondary-shadow-color);
+}
+.text-secondary-shadow-color {
+    color: var(--secondary-shadow-color);
+}
+.border-secondary-shadow-color {
+    border: var(--secondary-shadow-color) solid 2px;
+}
+
+.bg-secondary-dark-color {
+    background-color: var(--secondary-dark-color);
+}
+.text-secondary-dark-color {
+    color: var(--secondary-dark-color);
+}
+.border-secondary-dark-color {
+    border-color: var(--secondary-dark-color);
+}
+
+.bg-accent-color {
+    background-color: var(--accent-color);
+}
+.text-accent-color {
+    color: var(--accent-color);
+}
+.border-accent-color {
+    border-color: var(--accent-color);
+}
+
+.bg-accent-shadow-color {
+    background-color: var(--accent-shadow-color);
+}
+.text-accent-shadow-color {
+    color: var(--accent-shadow-color);
+}
+.border-accent-shadow-color {
+    border-color: var(--accent-shadow-color);
+}
+
+.bg-accent-dark-color {
+    background-color: var(--accent-dark-color);
+}
+.text-accent-dark-color {
+    color: var(--accent-dark-color);
+}
+.border-accent-dark-color {
+    border-color: var(--accent-dark-color);
+}
+
+.bg-light-dark-color {
+    background-color: var(--light-dark-color);
+}
+.text-light-dark-color {
+    color: var(--light-dark-color);
+}
+.border-light-dark-color {
+    border-color: var(--light-dark-color);
+}
+
+.bg-dark-color {
+    background-color: var(--dark-color);
+}
+.text-dark-color {
+    color: var(--dark-color);
+}
+.border-dark-color {
+    border-color: var(--dark-color);
+}
+
+.bg-light-gray-color {
+    background-color: var(--light-gray-color);
+}
+.text-light-gray-color {
+    color: var(--light-gray-color);
+}
+.border-light-gray-color {
+    border-color: var(--light-gray-color);
+}
