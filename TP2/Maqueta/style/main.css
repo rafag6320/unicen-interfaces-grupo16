@@ -1,5 +1,5 @@
 :root {
-    --primay-color: #E41010;
+    --primary-color: #E41010;
     --primary-shadow-color: #9B0B0B;
     --primary-dark-color: #480505;
     --secondary-color: #FFCB14;
@@ -11,6 +11,7 @@
     --light-dark-color: rgb(50, 50, 50, 0.9);
     --dark-color: #323232;
     --light-gray-color: #CACACA;
+    --white-color: #f1f1f1;
 }
 
 * {
@@ -25,7 +26,55 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
 
+.font-inter {
+    font-family: 'Inter';
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-bold {
+    font-weight: 800;
+}
+
+.text-xs {
+    font-size: 14px;
+}
+
+.text-sm {
+    font-size: 18px;
+}
+.text-md {
+    font-size: 20px;
+}
+.text-lg {
+    font-size: 24px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.rounded-xs {
+    border-radius: 4px;
+}
+.rounded-sm {
+    border-radius: 8px;
+}
+.rounded-md {
+    border-radius: 16px;
+}
+.rounded-md-bottom {
+    border-radius: 0px  0px 16px  16px;
+}
 
 .hidden {
     display: none;
@@ -44,7 +93,7 @@
 }
 
 .bg-primary-color {
-    background-color: var(--primary-color);
+    background: var(--primary-color);
 }
 .text-primary-color {
     color: var(--primary-color);
@@ -161,4 +210,8 @@
 }
 .border-light-gray-color {
     border-color: var(--light-gray-color);
+}
+
+.text-white-color {
+    color: var(--white-color);
 }
