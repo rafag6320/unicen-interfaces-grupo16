@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/Logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/card.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/login.css" />
+    <title>Login</title>
+  </head>
+  <body class="bg-dark-color header">
+    <header class="bg-dark-color header">
+        <nav class="navbar">
+          <div class="logo-menu">
+            <button class="bg-transparent border-none">
+              <img src="./assets/icons/Menu.svg" alt="Icono de Menu" />
+            </button>
+            <a href="index.html"><img src="./assets/Logo.svg" alt="Icono de Poyo Games"  /></a> 
+          </div>
+          <form class="border-secondary-color search-form">
+            <input id="search-input"
+              class="bg-transparent search-input"
+              placeholder="Buscar experiencias"
+            />
+            <button class="bg-transparent border-none search-button">
+              <img src="./assets/icons/Search.svg" alt="Icono de Busqueda" />
+            </button>
+          </form>
+  
+          <div class="navbar-buttons">
+              <label for="search-input" class="bg-transparent border-none search-movile">
+                <img src="./assets/icons/Search.svg" alt="Icono de Busqueda" />
+              </label>
+              <button class="bg-transparent border-none">
+                <img src="./assets/icons/Cart.svg" alt="Icono de Carrito" />
+              </button>
+              <button class="bg-transparent border-none">
+                <img src="./assets/icons/User.svg" alt="Icono de Usuario" />
+              </button>
+          </div>
+        </nav>
+      </header>
+
+      <div class="login-container">
+        <div class="login-box">
+            <div class="icon"> 
+                <span>Icono</span>
+            </div>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" name="Username" id="Username" required> 
+
+                <label for="username">Password</label>
+                <input type="password" name="password" id="password" required>
+
+                <a href="register.html" class="register-link"> Crear cuenta </a>
+                <button class="login-button" type="submit"> ACCEDER</button>
+            </form>
+        </div>
+      </div>
+    
+  </body>
