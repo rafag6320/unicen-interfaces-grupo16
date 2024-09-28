@@ -49,15 +49,35 @@
             <div class="icon"> 
                 <span><img src="./assets/icons/User.svg" /> </span>
             </div>
+            <div class="continue-with">
+                <button class="with-facebook">Continuar con facebook</button>
+                <button class="with-google">Continuar con Google</button>
+            </div>
             <form>
-                <label for="username">Nombre de usuario o nickname</label>
-                <input type="text" name="Username" id="Username" required> 
+                <label for="username">Nombre <span class="span-oblig">*</span></label>
+                <input type="text" name="username" id="username"  placeholder="Escriba su nombre aqui">
 
-                <label for="username">Contraseña</label>
-                <input type="password" name="password" id="password" required>
+                <label for="last-name">Apellido <span class="span-oblig">*</span></label>
+                <input type="text" name="last-name" id="last-name" placeholder="Escriba su apellido aqui" required> 
 
-                <a href="register.html" class="register-link"> Crear cuenta </a>
-                <button class="login-button" type="submit"> ACCEDER</button>
+                <label for="nickname">Nickname</label>
+                <input type="text" name="nickname" id="nickname" placeholder="Escriba su apodo favorito">
+
+                <label for="date-birth">Fecha nacimiento <span class="span-oblig">*</span> </label>
+                <input type="date" name="date-birth" id="date-birth" max="2020-01-01" placeholder="DD/MM/YYYY" required>
+
+                <label for="email">Correo electronico <span class="span-oblig">*</span> </label>
+                <input type="email" name="email" id="email" placeholder="Escriba su mail" required>
+
+                <label for="password">Contraseña <span class="span-oblig">*</span> </label>
+                <input type="password" name="password" id="password" placeholder="Escriba una contraseña" required>
+
+                <label for="password">Contraseña <span class="span-oblig">*</span> </label>
+                <input type="password" name="password" id="password" placeholder="Repita la contraseña" required>
+
+
+                <a href="login.html" class="register-link"> Ya tengo cuenta</a>
+                <button class="login-button" type="submit">CREAR CUENTA</button>
             </form>
         </div>
       </div>

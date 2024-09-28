@@ -78,6 +78,33 @@ input:focus {
 .login-button:hover {
     background-color: var(--secondary-shadow-color);
 }
+.continue-with{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.continue-with button{
+    color: var(--white-color);
+    height: 40px;
+    margin: 7px;
+    border-radius: 7px;
+}
+
+.with-facebook{
+    background-color: var(--accent-shadow-color);
+}
+
+.with-google{
+    background-color: var(--primary-shadow-color);
+}
+
+.span-oblig{
+    color: var(--primary-color);
+}
+#date-birth{
+    height: 50%;
+}
 
 @media only screen and (min-width: 600px){
     .login-container{
@@ -102,4 +129,5 @@ input:focus {
     .register-link{
         font-size: 1em;
     }
+      
 }
